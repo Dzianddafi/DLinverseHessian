@@ -37,7 +37,7 @@ $$
 Using the adjoint-state method, the gradient is computed by correlating the forward wavefield with the adjoint wavefield. The adjoint modelling formulation is:
 
 $$
-\frac{\partial^{2}E(m)}{\partial m^{2}} = -\frac{2}{v^{3}} \int \frac{\partial^{2}u(x,t)}{\partial t^{2}} \ u^{*}(T-t)\,dt
+\frac{\partial}E(m)}{\partial m} = -\frac{2}{v^{3}} \int \frac{\partial^{2}u(x,t)}{\partial t^{2}} \ u^{*}(T-t)\,dt
 $$
 
 
