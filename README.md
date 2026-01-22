@@ -64,18 +64,16 @@ This repository is organized as follows:
 - 🗂️ **deeplearning_ta/**: Deep learning architectures to test.  
 - 🗂️ **fwi_multiscale/**: notebooks for multi-scale FWI.  
 - 🗂️ **fwi_singlescale/**: notebooks for single-scale FWI.  
-
-
   
-### ✍️ Authors
+  
+## ✍️ Authors
 
 Dziand Dafi Ginandjar - Institut Teknologi Bandung  
 Andri Hendriyana - Institut Teknologi Bandung  
 Infall Syafalni - Institut Teknologi Bandung  
-
-
+  
+  
 ## 💭 Feedback and Contributing
+  
+Multiscale implementation on 1 architecture ([EarthDoc paper](https://www.earthdoc.org/content/papers/10.3997/2214-4609.202576026)).
 
-Add a link to the Discussions tab in your repo and invite users to open issues for bugs/feature requests.
-
-This is also a great place to invite others to contribute in any ways that make sense for your project. Point people to your DEVELOPMENT and/or CONTRIBUTING guides if you have them.
