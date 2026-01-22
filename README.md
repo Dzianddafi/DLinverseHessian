@@ -29,7 +29,6 @@ $$
 The commonly used least-squares misfit function in FWI is defined as:
 
 $$
-\displaystyle
 E(m) = \frac{1}{2}\sum_{i=1}^{N}\left\| d_{\mathrm{syn}}^{\,i}(m) - d_{\mathrm{obs}}^{\,i} \right\|_2^2
 $$
 
@@ -38,13 +37,7 @@ $$
 Using the adjoint-state method, the gradient is computed by correlating the forward wavefield with the adjoint wavefield. The adjoint modelling formulation is:
 
 $$
-\displaystyle
-\frac{\partial^{2}E(m)}{\partial m^{2}}
-=
--\frac{2}{v^{3}}
-\int
-\frac{\partial^{2}u(x,t)}{\partial t^{2}}
-\,u^{*}(T-t)\,dt
+\frac{\partial^{2}E(m)}{\partial m^{2}} = -\frac{2}{v^{3}} \int \frac{\partial^{2}u(x,t)}{\partial t^{2}} \,u^{*}(T-t)\,dt
 $$
 
 
