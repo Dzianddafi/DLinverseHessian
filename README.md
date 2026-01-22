@@ -1,10 +1,9 @@
 # 📦 Deep Learning-based inverse Hessian Estimation in Multi-scale Full Waveform Inversion
 
+    
 <img width="2944" height="1404" alt="image" src="https://github.com/user-attachments/assets/f2e7b1e7-5251-46f7-9776-8607a4f324f0" />
-
-> *Your documentation is a direct reflection of your software, so hold it to the same standards.*
-
-
+  
+  
 ## ℹ️ Overview
 
 This repository presents a research study on deep learning–based inverse Hessian estimation for multiscale Full Waveform Inversion (FWI).
