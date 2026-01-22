@@ -21,10 +21,7 @@ This work introduces a deep learning framework that learns an approximate invers
 The forward wave propagation is governed by the damped acoustic wave equation:
 
 $$
-\frac{1}{v^2}\frac{\partial^2 u(x,t)}{\partial t^2}
-- \nabla^2 u(x,t)
-+ \eta \frac{\partial u(x,t)}{\partial t}
-= f_s(x,t)
+\frac{1}{v^2}\frac{\partial^2 u(x,t)}{\partial t^2} - \nabla^2 u(x,t) + \eta \frac{\partial u(x,t)}{\partial t} = f_s(x,t)
 $$
 
 
