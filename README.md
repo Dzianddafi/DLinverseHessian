@@ -40,7 +40,21 @@ $$
 \frac{\partial E(m)}{\partial m} = -\frac{2}{v^{3}} \int \frac{\partial^{2}u(x,t)}{\partial t^{2}} \ u^{*}(T-t)\,dt
 $$
 
+#### Model Update
 
+After computing the model perturbation $\delta m$, the model is updated at iteration $k$ as:
+
+$$
+m_{k+1} = m_k + \delta m
+$$
+
+#### Model Perturbation Using the Hessian
+
+In a Newton-type optimization framework, the model perturbation is computed using the inverse Hessian as:
+
+$$
+\delta m = - \left(\frac{\partial^{2} E(m)}{\partial m^{2}}\right)^{-1} \frac{\partial E(m)}{\partial m}
+$$
 
 ## 🌟 Highlights
 
