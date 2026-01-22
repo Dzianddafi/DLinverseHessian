@@ -14,7 +14,7 @@ FWI is a highly nonlinear and ill-posed inverse problem. While Newton-type metho
 
 This work introduces a deep learning framework that learns an approximate inverse Hessian operator directly from multiscale FWI updates. The learned operator acts as a preconditioner that transforms raw gradients into more physically meaningful and better-scaled model updates, effectively mimicking the behavior of second-order optimization while maintaining computational feasibility.
 
-### Methods
+## ♠︎ Methods
 
 #### Forward Modeling with Absorbing Boundary
 
@@ -56,11 +56,15 @@ $$
 \delta m = - \left(\frac{\partial^{2} E(m)}{\partial m^{2}}\right)^{-1} \frac{\partial E(m)}{\partial m}
 $$
 
-## 🌟 Highlights
+## 🗂️ Folder Structure
 
-- Some functionality made easy!
-- This problem handled
-- etc.
+This repository is organized as follows:  
+
+- 🗂️ **devito_ta/**: Primary python files including the creation of model and geometry, plotting, preprocessing, and simulations.  
+- 🗂️ **deeplearning_ta/**: Deep learning architectures to test.  
+- 🗂️ **fwi_multiscale/**: notebooks for multi-scale FWI.  
+- 🗂️ **fwi_singlescale/**: notebooks for single-scale FWI.  
+
 
   
 ### ✍️ Authors
@@ -68,30 +72,6 @@ $$
 Dziand Dafi Ginandjar - Institut Teknologi Bandung  
 Andri Hendriyana - Institut Teknologi Bandung  
 Infall Syafalni - Institut Teknologi Bandung  
-
-
-## 🚀 Usage
-
-*Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
-
-```py
->>> import mypackage
->>> mypackage.do_stuff()
-'Oh yeah!'
-```
-
-
-## ⬇️ Installation
-
-Simple, understandable installation instructions!
-
-```bash
-pip install my-package
-```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.
-
-*You may be inclined to add development instructions here, don't.*
 
 
 ## 💭 Feedback and Contributing
